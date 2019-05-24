@@ -1,0 +1,10 @@
+a=input("Enter the first value: ")
+b=input("Enter the second value: ")
+
+print("Before Swap")
+print(a)
+print(b)
+(a,b)=(b,a)
+print("After Swap")
+print(a)
+print(b)
