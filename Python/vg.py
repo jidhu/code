@@ -1,0 +1,1 @@
+print (float.22f(5e3))
