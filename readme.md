@@ -1,1 +1,1 @@
-Hi folks, contribute some reference and codes for me.
+folks, contribute some reference and codes for me.
