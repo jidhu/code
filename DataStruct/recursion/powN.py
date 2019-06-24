@@ -1,7 +1,7 @@
 t=int(input())
 for i in range(t):
      n=input()
-     v= n[::-1]
+     v=n[::-1]
      print(v)
      n=int(n)
      v=int(v)
@@ -12,8 +12,8 @@ def poww(n,v):
 
     elif v==1:
         return n
-        z=(poww(n,v//2))%1000000007
-
+    
+    z=(poww(n,v//2))%1000000007
     if v%2==0:
         return((z*z)%1000000007)
     else:
