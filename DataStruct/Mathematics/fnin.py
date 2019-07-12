@@ -13,4 +13,3 @@ print(count)
 #Soln 2
 x = int(input("\nEnter the number?\n> "))
 print(int(log(x,10)+1))
-input()
