@@ -2,7 +2,20 @@
 #include<iostream>
 
 using namespace std;
-/*
+
+#define N 3
+
+void display(int mat[][N])
+{
+    for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            cout<<mat[i][j];
+        }
+        cout<<endl;
+    }
+}
 void rotateMatrix(int mat[][N]) 
 {
     // Consider all squares one by one 
@@ -28,18 +41,13 @@ void rotateMatrix(int mat[][N])
             mat[N-1-j][i] = temp; 
         } 
     } 
-} */
+    display(mat);
+} 
 int main()
 {
     int mat[3][3]={1,2,3,4,5,6,7,8,9};
-    for(int i=0;i<3;i++)
-    {
-        for(int j=0;j<3;j++)
-        {
-            cout<<mat[i][j];
-        }
-        cout<<endl;
-    }
-    //rotateMatrix(mat);
+    display(mat);
+    cout<<endl;
+    rotateMatrix(mat);
     return 0;    
 }
