@@ -7,18 +7,28 @@ int main() {
 	cin>>T;
 	while(T>0)
 	{
-	    int n,x;
+	    int n,temp,x,i=0;
 	    cin>>n;
 	    int arr[n];
-	    for(int i=0; i<n; i++)
+	    cin>>temp;
+	    
+	    while(i < n)
+    	{	
+    	    arr[n] = temp;
+	    	i++;
+		}
+		
+	    for(i=0; i<n; i++)
         {
-            cin>>arr[i];
+        cin>>arr[i];
         }
         cin>>x;
+        
         if (binary_search(arr,arr+n,x))
         {
-            return binary_search(arr,arr+n,x);
+            cout<<binary_search(arr,arr+n,x);
         }
-        return -1;
-    }
+        cout<<-1;
+	}
+	T--;
 }
