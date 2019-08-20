@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<iostream>
+#define N 3
 
 using namespace std;
-
-#define N 3
 
 void display(int mat[][N])
 {
@@ -16,7 +15,7 @@ void display(int mat[][N])
         cout<<endl;
     }
 }
-void rotateMatrix(int mat[][N]) 
+void rotateMatrix(int mat[][N])
 {
     // Consider all squares one by one 
     for (int i = 0; i < N / 2; i++) 
@@ -45,7 +44,7 @@ void rotateMatrix(int mat[][N])
 } 
 int main()
 {
-    int mat[3][3]={1,2,3,4,5,6,7,8,9};
+    int mat[N][N]={1,2,3,4,5,6,7,8,9};
     display(mat);
     cout<<endl;
     rotateMatrix(mat);
