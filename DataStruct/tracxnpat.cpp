@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <iostream>
- 
+
 int main()
 {
     int row,c,s,space,chr;
     int n=3;
     int s=n;
     int c=1;
-    
+
     for (row=1;row<2*n-1;row++)
     {
         if (s>=0)
@@ -16,18 +16,18 @@ int main()
             {
                 cout<<' ';
             }
-        
-        
+
+
             for (chr=1;chr<=c;c++)
             {
-                cout<<'*';
+                cout<<'*'; 
                 if(chr<c)
                 {
                     cout<<' ';
                 }
             }
             cout<<endl;
-        
+
             c++;
             s--;
         }
