@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    int row,c,s,space,chr;
+    int row,space,chr;
     int n=3;
     int s=n;
     int c=1;
@@ -20,7 +21,7 @@ int main()
 
             for (chr=1;chr<=c;c++)
             {
-                cout<<'*'; 
+                cout<<'*';
                 if(chr<c)
                 {
                     cout<<' ';
@@ -32,3 +33,5 @@ int main()
             s--;
         }
     }
+    return 0;
+}
