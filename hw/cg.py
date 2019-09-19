@@ -1,4 +1,5 @@
 #bunch of cards
+
 cards=[]
 def enter():
     while (len(cards)<14):
