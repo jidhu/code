@@ -1,6 +1,6 @@
 height=int(input('Height: '))
 space=height - 1
-ash=2
+ash=1
 i = 0
 if(height > 0 and height < 180):
     while(i < height):
