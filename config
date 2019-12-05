@@ -1,15 +1,30 @@
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	logallrefupdates = true
-[remote "origin"]
-	url = https://github.com/jidhu/code.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
-[user]
-	name = Jidhu
-	email = jidhu.jbj@gmail.com
-[credential]
-	helper = store
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,D4889CA12207D10EBFB06ADAFED77B74
+
+iD9A1P8JoEsvgKNEjqNIIkld3LmmFgYIlZ0fKx6JpEEyVV6Ay3bnevJdhBG5w8yN
+rszEmHEeqBtkjICqNxQyPFdqY0OMJTcQXWd1xgKcj0KhiekzifWOp8zpbccssR0L
+18CG36AyPsmHZj8s3R9Dw3aiyH6X2r84+s7Xinq65dlln3LhvahIbqtPtfOpzPWZ
+53mnTTIDIGDi03rMA1RrACe/Yj3EM+B40RAoyGXxzyFWwCniB7XySU2rj7mixGkS
+1sziASEREb2DRryZTM7ibli6YfWDwPoI3iHR6kJ6Z+O8C6Ex9xcyvGKQIkmaU0xU
+fbslldOOMFn7RSfruOIyOYtKrki/NOH4fjQscKhmBeHHkNVp8qxdb1YDX1aERVFj
+WQvGPHZZvrinLq6x8ktIkc43vnvegIRrSMJq8hL76HHF6KpJNhdfUlICYp5mGDQz
+1FCvb3LCzot+8rZdrU2/O45Uc+Eb3MFpBCytW9mmHu2fyO9/Ex9Y/wjssJvpa7Nb
+iRg+RvSeqVdJeEzPrn8z2Kb4KUsT4X8FINWZBTTPLDNYi+Eo5Gp4kOuGt+TmyEut
+VX5L9cefp+p7kYk2Sv5s8Q2uTsBCA0YmAab3y1Xlmd5lxX2I6QQr0PZEazEp7jTJ
+KCairFU81CpQpAXO4hWe/3+NBf7LhmhkpkiOpDGxoauIMaDGDqKay2VXT4YcXQHf
+ai6Oi2DbhnHhnVSp8uNNRDiKSu3UKJMWA/Lo+rMeXpA3jZ4SQOEtw/P28EyHkpDq
+Dj9OXwuI7raAagBJBf7zzI6+zGcVQylFcLIeuY9BIsjmkFJyK3Z58pdo5gBnpDrK
+HeBjZ6/Uu2K2N1jcPWo3GG40hJHLXAqSKfMaL3kt21f6rOop1CAP7jDHn1VFLR9c
+2greCp4kcavI9ZElyKlfnE1nSY/MNPQJvepkeXqMgzZhBy3toxhTMJU9soWl79FM
+eUVFA+OfgRyl7I2qdQrrKxYI0apuWX/kpWJE/0noTT3jr+pvaG2gky6TbxcGeFP7
+f5tpxQGXxcooPciZljVk2hAHyjo8NX6LElQwkmTkJYIXhyo4XsFteuYiQqLqWwng
+pBwYTAJ5h7oGNUBZH2otlffSKDhoSpp4AM5ulItGfJUeNeoI950rtdv4dRf4QcGR
+WUeiXWK+1BX2XOp9qAUUKD1VlyLC9mhdYvxLWrP6Zf6MYSr0v3GR6qp7DJPuQA6O
+IPxUhsBX87fI0Wr8fxTdue6OhNlrmQlpnuXVrzdClqb1ek3YvwVuNQm6oA1ipjOZ
++hEAdamJm01yHtzCjhFYrSlGSgRsYoVhcbN2rrKcIETn7JtinN8YCAyo7hZ9XnuE
+w5gvP3pOwE18S3SoVkT3zoHDts1Lk9ygOvRGK2k6p72a/iL0kHBsfDpBfn6s/W57
+S1bSREHU9aHe6CacP09+b0lKeBWIWffFjschXIwlWPF6D0aavF+dkqVjugpMnvlX
+T4wTR4Ko4juqHk528tREieH4JlfEzRtmiahmcc/qdcTCJ7Vwuwgp95QIGdDhqNtM
+bhA6SfIQX2wkdblu4eAr7oH7NA6ENpMqbDq2gmaa7SVb8GN82hIiE6Z72lYwnNJ4
+-----END RSA PRIVATE KEY-----
