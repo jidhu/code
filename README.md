@@ -1,1 +1,1 @@
-# aspiring to be a code.
+# aspiring to be a coder.
