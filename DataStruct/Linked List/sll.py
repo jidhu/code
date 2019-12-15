@@ -18,12 +18,19 @@ class Node:
     def has_next(self):
         return self.next != None
 
-ll = Node()
+head = Node()
+ll1 = Node()
 ll2 = Node()
-ll.set_data(5)
-print(ll.get_data())
-ll.set_next(ll2)
-print(ll2.get_next())
+head.set_data(7)
+head.set_next(ll1)
+ll1.set_data(6)
+ll1.set_next(ll2)
+ll2.set_data(5)
+ll1 = Node()
+ll2.set_next(ll1)
+ll1.set_data(4)
+ll2 = Node()
+ll1.set_next(head)
 
-print(ll.has_next())
-print(ll2.has_next())
+del ll1
+del ll2
