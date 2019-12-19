@@ -13,4 +13,5 @@ class Node:
     def has_next(self):                   #returns true if the node points to another Node
         return self.next != None
 
-a = Node() 
+a = Node()
+b = Node()
