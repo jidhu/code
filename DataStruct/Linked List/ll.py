@@ -11,4 +11,6 @@ class Node:
     def get_next(self,next):            #method for getting the next field of the Node
         return self.next
     def has_next(self):                   #returns true if the node points to another Node
-        return self.next != None``
+        return self.next != None
+
+a = Node() 
