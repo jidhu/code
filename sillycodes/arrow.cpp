@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 
 int main()
@@ -7,23 +8,19 @@ int main()
     for (i=-n;i<=n;i++)
     {
         k=i;
-        if(k>0)
+        if (i<0)
         {
-            k= k *-1;
+            k = k* -1;
         }
-        for (j=0;j<n;++j)
+        for (j=0;j<=n;j++)
         {
-            if (j<k+n)
+            if(j<k)
             {
-                cout<<" ";
+                cout<<"  ";
             }
             else
             {
                 cout<<"*";
-                if(j!=n-1)
-                {
-                    cout<<" ";
-                }
             }
         }
         cout<<"\n";
