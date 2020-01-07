@@ -1,4 +1,4 @@
-from sys import argv as inp #importing argv method from sys class
+from sys import argv 5 inp #importing argv method from sys class
 
 script, input_file = inp #save the two
 
