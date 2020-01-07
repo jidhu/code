@@ -5,8 +5,10 @@ len = len(s)
 comsstr = n // len
 remsstr = n % len
 count = 0
-for i in s:
+for i in range(len):
     if s[i] == 'a':
         count+=1
+    if s[i] == 'a' and i < remsstr:
+        rmcount+=1
 
-print(count*comsstr+remsstr)
+print(count*comsstr+rmcount)
