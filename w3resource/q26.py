@@ -2,7 +2,7 @@ def histogram(list):
     for i in list:
         output=''
         while(i > 0):
-            output+='@'
+            output+='*'
             i-=1
         print(output)
-histogram([2,4,5,65,67,32])
+histogram([i for i in range(1,9)])
