@@ -1,16 +1,13 @@
-a = 5
-b = "vijay"
-c = True
-d = 45.5
-
-
-try:
-    if(a<2):
-        print(a)
-    a = a/0
-except:
-    ZeroDivisionError
-'''finally:
-    print("thapichita")
-    raise ("mavane maatunada")
-'''
+s = 'jidhu.jbj@gmail.com'
+if s[len(s)-4]=='.':
+    if s.count('@')==1:
+        username = s.split('@')
+        extras=username[1].split('.')
+        if extras[0].isalpha():
+            a = [char for char in username[0]]
+            for i in a:
+                if i.isapha() or i.isdigit() or i == "_" or i == " ":
+                    return True
+return False
+   # mailid = mailid[1].split('.')
+    
